@@ -1,0 +1,109 @@
+body {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/004/866/785/non_2x/abstract-blue-and-turquoise-horizontal-background-for-design-smooth-satin-gradient-with-pink-highlights-free-vector.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+  .container-box {
+    max-width: 1250px;
+    margin: 40px auto;
+    border: 1px solid #33B5E5;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+  }
+
+  .header {
+    background-color: #d9dfe3;
+    border: 2px solid #33B5E5;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .header h1, h4 {
+    color: #33B5E5;
+    margin: 0;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+
+
+  .menu-bar {
+    background-color: #64CCF2;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .dropdown-menu a {
+    color: black;
+    transition: background-color 0.3s;
+  }
+
+  .dropdown-menu a:hover {
+    background-color: #33B5E5;
+    color: white;
+  }
+
+  .menu-bar .btn,
+  .menu-bar .dropdown-toggle {
+    background-color: #e6e6e6;
+    color: #000;
+    border: 1px solid #33B5E5;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+  }
+
+  .menu-bar .btn:hover,
+  .menu-bar .dropdown-toggle:hover {
+    background-color: #33B5E5;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+
+  .content-box {
+    margin-top: 40px;
+    padding: 30px;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+
+  .content-box h2 {
+    color: #1999d0;
+    font-weight: 600;
+  }
+
+  .content-box h3 {
+    color: #1999d0;
+    font-weight: 600;
+  }
+
+  .footer-note {
+    margin-top: 20px;
+    text-align: center;
+    color: #888;
+    font-size: 0.9rem;
+  }
+
+  .justificado {
+    text-align: justify;
+  }
+
+  .header-logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; /* Opcional, para que no se desborde en pantallas pequeñas */
+}
