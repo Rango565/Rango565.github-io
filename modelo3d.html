@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta charset="UTF-8">
+  <title>MODELOS 3D</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilos/modelo3d.css">
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+</head>
+<body>
+  <div class="page-wrapper">
+  <!-- Caja principal -->
+  <div class="container-box mt-4">
+    <div class="header">
+      <img src="imagenes/normal.jpg" alt="Logo" class="header-logo">
+      <h1>APRENDIENDO TECNOLOGIA</h1>
+    </div>
+
+    <div class="nav-bar">
+      <button class="arrow-btn" onclick="location.href='informacion.html'">←</button>
+      <div class="nav-links">
+        <a href="dron.html">DRON</a>
+        <a href="informacion.html">INFORMACION</a>
+        <a href="modelo3d.html">MODELO 3D</a>
+      </div>
+      <button class="arrow-btn" onclick="location.href='dron.html'">→</button>
+    </div>
+
+    <div class="main-title">COMPONENTES EN MODELADOS 3D</div>
+
+    <!-- Contenido principal: modelos -->
+    <div class="main-content row g-4">
+      <!-- Modelo 1 -->
+      <div class="col-md-12">
+        <div class="card p-3">
+          <model-viewer class="model-viewer" src="modelos/aruduino.glb" alt="Arduino"
+                        auto-rotate camera-controls background-color="#FFFFFF"
+                        style="width: 100%; height: 300px;">
+          </model-viewer>
+          <div class="mt-2">
+            <h5>Arduino Nano</h5>
+            <p>El Arduino nano es un microcontrolador que permite programar y controlar distintos dispositivos electrónicos.</p>
+            <p>En este caso, nustro arduiono es el encargado de las instrucciones en nuestro dron, es el cerebro que le dice a nuestro dron que hacer.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modelo 2 -->
+      <div class="col-md-12">
+        <div class="card p-3">
+          <model-viewer class="model-viewer" src="modelos/giroscopio.glb" alt="Giroscopio"
+                        auto-rotate camera-controls background-color="#FFFFFF"
+                        style="width: 100%; height: 300px;">
+          </model-viewer>
+          <div class="mt-2">
+            <h5>Acelerometro Y Giroscopio Mpu-6050 Gy-521</h5>
+            <p>El módulo MPU-6050 contiene un giroscopio y un acelerómetro para detectar movimientos y orientación.</p>
+            <p>Se encarga de mantener calibrado nuestro dron, para poder desplazarse por el aire y saber en que motor ejercer mas fuerza para moverse, sin esete componente no seria posible tener control sobre nuestro dron.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modelo 3 -->
+      <div class="col-md-12">
+        <div class="card p-3">
+          <model-viewer class="model-viewer" src="modelos/transistor.glb" alt="Transistor"
+                        auto-rotate camera-controls background-color="#FFFFFF"
+                        style="width: 100%; height: 300px;">
+          </model-viewer>
+          <div class="mt-2">
+            <h5>Transistor</h5>
+            <p>Un transistor es un semiconductor que se utiliza para la rectificación y la amplificación de los impulsos eléctricos. Dispone de, al menos, tres electrodos y se caracteriza por su capacidad de tolerar corrientes de cierta intensidad mientras opera con voltajes reducidos.
+ Además, un transistor puede actuar como rectificador, conmutador, oscilador o amplificador de la electricidad.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modelo 4 -->
+      <div class="col-md-12">
+        <div class="card p-3">
+          <model-viewer class="model-viewer" src="modelos/hc06.glb" alt="Bluetooth"
+                        auto-rotate camera-controls background-color="#FFFFFF"
+                        style="width: 100%; height: 300px;">
+          </model-viewer>
+          <div class="mt-2">
+            <h5>Bluetooth HC06</h5>
+            <p>El módulo Bluetooth HC-06 es un dispositivo que permite la comunicación inalámbrica mediante el protocolo Bluetooth, y está diseñado para funcionar como un dispositivo esclavo (Slave).
+ Este módulo es compatible con teléfonos inteligentes y otros dispositivos que cuenten con Bluetooth, y se utiliza comúnmente en proyectos con microcontroladores como Arduino</p>
+
+              <p>Nos perimitira hacer la conexion con nuestra aplicacion movil donde tenemos el control para manejar el dron.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modelo 5 -->
+      <div class="col-md-12">
+        <div class="card p-3">
+          <model-viewer class="model-viewer" src="modelos/" alt="Arduino"
+                        auto-rotate camera-controls background-color="#FFFFFF"
+                        style="width: 100%; height: 300px;">
+          </model-viewer>
+          <div class="mt-2">
+            <h5>Regulador Dc-dc Subida Mt3608 In 2-24v, Out 28v 2a</h5>
+            <p>Ees un dispositivo electrónico que permite la conversión de voltaje de corriente directa (DC) a otro voltaje DC con una alta eficiencia de conversión y excelente regulación de línea y bajo voltaje de rizado.
+               Este módulo puede tomar voltajes de entrada tan bajos como 2V y aumentar la salida hasta 28V.</p>
+            <p>Este dispositivo es esencial para nuestro circuito, ya que es el encargado de la alimentcion de nuestro cirucuito.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modelo 6 -->
+      <div class="col-md-12">
+        <div class="card p-3">
+          <model-viewer class="model-viewer" src="modelos/motordrones.glb" alt="Arduino"
+                        auto-rotate camera-controls background-color="#FFFFFF"
+                        style="width: 100%; height: 300px;">
+          </model-viewer>
+          <div class="mt-2">
+            <h5>Motores</h5>
+            <p>El Arduino nano es un microcontrolador que permite programar y controlar distintos dispositivos electrónicos.</p>
+            <p>En este caso, nustro arduiono es el encargado de las instrucciones en nuestro dron, es el cerebro que le dice a nuestro dron que hacer.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modelo 7 -->
+      <div class="col-md-12">
+        <div class="card p-3">
+          <model-viewer class="model-viewer" src="modelos/" alt="Arduino"
+                        auto-rotate camera-controls background-color="#FFFFFF"
+                        style="width: 100%; height: 300px;">
+          </model-viewer>
+          <div class="mt-2">
+            <h5>Helices</h5>
+            <p>Las hélices de un dron son componentes esenciales que generan la fuerza ascendente necesaria para que el dron se eleve. Estas palas giran a gran velocidad y utilizan la aerodinámica para mover el aire y crear sustentación.</p>
+            <p>Su diseño y características influyen en el rendimiento, la maniobrabilidad, la eficiencia energética y la estabilidad del dron.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modelo 8 -->
+      <div class="col-md-12">
+        <div class="card p-3">
+          <model-viewer class="model-viewer" src="modelos/" alt="Arduino"
+                        auto-rotate camera-controls background-color="#FFFFFF"
+                        style="width: 100%; height: 300px;">
+          </model-viewer>
+          <div class="mt-2">
+            <h5>Engranaje</h5>
+            <p>Es una parte fundamental para nuesto dron, es el soporte de nuestros motores y la conexion mediante engranajes con nuestas helices.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modelo 9 -->
+      <div class="col-md-12">
+        <div class="card p-3">
+          <model-viewer class="model-viewer" src="modelos/" alt="Arduino"
+                        auto-rotate camera-controls background-color="#FFFFFF"
+                        style="width: 100%; height: 300px;">
+          </model-viewer>
+          <div class="mt-2">
+            <h5>Switch</h5>
+            <p>Es un dispositivo que permite conectar o desconectar la corriente eléctrica, utilizado en circuitos eléctricos o electrónicos para encender o apagar dispositivos.</p>
+            <p>Su proposito en nuestro dron es que pueda cortar la corriente de energia en el modulo Bluetooth, para programar nuestro Arduino Nano junto al Giroscopio.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modelo 10 -->
+      <div class="col-md-12">
+        <div class="card p-3">
+          <model-viewer class="model-viewer" src="modelos/" alt="Arduino"
+                        auto-rotate camera-controls background-color="#FFFFFF"
+                        style="width: 100%; height: 300px;">
+          </model-viewer>
+          <div class="mt-2">
+            <h5>Pila Lipo 3.7v</h5>
+            <p>Una pila Lipo 3.7V para dron es una batería de iones de litio utilizada en drones y otros dispositivos de radiocontrol. Estas baterías son conocidas por su alta densidad de energía,
+               alta velocidad de descarga y ligereza, lo que las hace ideales para aplicaciones RC.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modelo 11 -->
+      <div class="col-md-12">
+        <div class="card p-3">
+          <model-viewer class="model-viewer" src="modelos/" alt="Arduino"
+                        auto-rotate camera-controls background-color="#FFFFFF"
+                        style="width: 100%; height: 300px;">
+          </model-viewer>
+          <div class="mt-2">
+            <h5>Diodo rectificador</h5>
+            <p>Un diodo rectificador es un dispositivo semiconductor que se utiliza para convertir la corriente alterna en corriente continua. Tiene una conductividad unidireccional evidente y puede fabricarse con materiales semiconductores como el germanio o el silicio.</p>
+            <p>Su principal funcion es condicir la energia proporcional a nuestros motores.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Botón de inicio -->
+    <div class="home-btn mt-4">
+      <a href="index.html">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="Inicio">
+      </a>
+    </div>
+  </div>
+
+  <!-- Sección de Sabías qué al lado izquierdo -->
+<div class="sabiasque-container">
+  <div class="sabiasque-section">
+    <h4>¿Sabías que...?</h4>
+    <ul>
+      <li>Los drones, tienen sus raíces en la Primera Guerra Mundial, con aviones controlados a distancia para misiones de reconocimiento y bombardeo.</li>
+      <li>Los drones se utilizan en misiones de rescate y en situaciones de emergencia, gracias a su capacidad de volar en lugares peligrosos y transportar equipos de rescate.</li>
+      <li>Los drones ayudan a los agricultores a monitorear los cultivos, realizar análisis de suelos y aplicar fertilizantes y pesticidas de forma más precisa.</li>
+      <li>Los drones son ideales para inspeccionar infraestructuras y terrenos de forma segura y eficiente, incluso en lugares de difícil acceso.</li>
+    </ul>
+  </div>
+</div>
+
+
+  <!-- Sección de preguntas frecuentes (afuera de container-box) -->
+  <div class="faq-container">
+  <div class="faq-section">
+    <div id="faq-placeholder"></div>
+  </div>
+</div>
+
+</div>
+
+  <!-- Cargar contenido de faq.html -->
+  <script>
+    fetch("faq.html")
+      .then(response => response.text())
+      .then(html => {
+        document.getElementById("faq-placeholder").innerHTML = html;
+      });
+  </script>
+
+</body>
+
+</html>
