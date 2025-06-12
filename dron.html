@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="estilos/dron.css">
 </head>
 <body>
+  <script src="js/sabiasque.js"></script>
 <div class="page-wrapper">
   <div class="container-box mt-4">
     <div class="header">
@@ -30,12 +31,22 @@
     <div class="main-title">DRON</div>
 
     <div class="main-content">
+
+      <div style="display: flex; justify-content: center; align-items: center;">
+  <video autoplay loop muted playsinline width="800" height="500">
+    <source src="imagenes/vuelo.mp4" type="video/mp4">
+    Tu navegador no soporta la etiqueta de video.
+  </video>
+</div>
+
+<hr>
+
       <h4>Ensamblaje del Dron</h4>
       <p>A continuación puedes ver un video donde se explica el proceso de ensamblaje del dron paso a paso:</p>
 
       <!-- Video de YouTube embebido -->
       <div class="ratio ratio-16x9 mb-4">
-        <iframe src="https://www.youtube.com/embed/tu_id_de_video" 
+        <iframe src="https://youtu.be/e7evhjvml_g?si=90E8VP2Hs74dqY6b"
                 title="Video del ensamblaje del dron" allowfullscreen></iframe>
       </div>
 
@@ -66,11 +77,8 @@
 <div class="sabiasque-container">
   <div class="sabiasque-section">
     <h4>¿Sabías que...?</h4>
-    <ul>
-      <li>Los drones, tienen sus raíces en la Primera Guerra Mundial, con aviones controlados a distancia para misiones de reconocimiento y bombardeo.</li>
-      <li>Los drones se utilizan en misiones de rescate y en situaciones de emergencia, gracias a su capacidad de volar en lugares peligrosos y transportar equipos de rescate.</li>
-      <li>Los drones ayudan a los agricultores a monitorear los cultivos, realizar análisis de suelos y aplicar fertilizantes y pesticidas de forma más precisa.</li>
-      <li>Los drones son ideales para inspeccionar infraestructuras y terrenos de forma segura y eficiente, incluso en lugares de difícil acceso.</li>
+    <ul id="sabiasque-list">
+     
     </ul>
   </div>
 </div>
