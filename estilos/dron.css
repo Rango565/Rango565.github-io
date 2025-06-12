@@ -208,7 +208,7 @@ model-viewer {
   box-shadow: 0 0 12px rgba(0,0,0,0.1);
 }
 
-.faq-section h4 {
+.faq-section h4, h3, strong{
   color: #33B5E5;
   margin-bottom: 15px;
   font-weight: bold;
