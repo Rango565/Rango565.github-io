@@ -50,5 +50,5 @@ function actualizarFrases() {
 // Iniciar rotación
 document.addEventListener("DOMContentLoaded", function () {
   actualizarFrases();
-  setInterval(actualizarFrases, 20000); // cada 20 segundos
+  setInterval(actualizarFrases, 10000); // cada 20 segundos
 });
